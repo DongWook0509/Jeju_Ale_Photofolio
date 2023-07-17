@@ -1,0 +1,258 @@
+/* =================================================================== 
+Common
+=================================================================== */
+
+
+*{
+    font-family: 'Gotham_A';
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+
+
+
+
+/* =================================================================== 
+Header
+=================================================================== */
+.header_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_wrap{
+    display: flex;
+  
+}
+
+.header_wrap.left, .header_wrap.middle, .header_wrap.right {
+    display: inline-block;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header_wrap.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.header_wrap.middle .jeju_logo{
+    width: 70px;
+    height: 90px;
+}
+
+.header_wrap.right ul {
+    padding: 30px 0 22px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login, .join {
+    margin-right: 20px;
+}
+
+.recruit {
+    margin-left:37px;
+}
+
+.header_wrap.right ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    border-style: solid;
+    color: #8d8d8d;
+}
+
+.header_wrap.right ul li a:hover  {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    border-style: solid;
+    color: #c5c5c5;
+}
+
+.header_wrap.right .header_button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_wrap.right .non_alcoholic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    width: 160px;
+    height: 30px;
+    background-color: #ff7e6b;
+    color : #ffffff;
+    border-radius: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.35s;
+}
+
+.header_wrap.right .non_alcoholic:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    width: 160px;
+    height: 30px;
+    border : 1px solid #ff7e6b;
+    color: #ff7e6b;
+    background-color : #ffffff;
+    border-radius: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header_wrap.right .brewery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    width: 107px;
+    height: 30px;
+    background-color: #1ecad3;
+    color : #ffffff;
+    border-radius: 30px;
+    margin-left: 5px;
+    transition: 0.35s;
+}
+
+.header_wrap.right .brewery:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    width: 107px;
+    height: 30px;
+    background-color: #10adb5;
+    color : #ffffff;
+    border-radius: 30px;
+}
+
+.nav_wrap nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.nav_wrap ul {
+    padding: 0 50px;
+}
+
+.nav_wrap nav ul .active {
+    font-size: 14px;
+    color : #1ecad3;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid #1ecad3;
+}
+
+.nav_wrap nav ul .active:hover{
+    font-size: 14px;
+    color : #e5e7eb;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid #1ecad3;
+}
+
+
+.nav_wrap ul a {
+    font-size: 14px;
+    color : #6b706a;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 0;
+}
+
+.nav_wrap ul a:hover {
+    color : #e5e7eb;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 0;
+}
+
+
+
+/* =================================================================== 
+footer 
+=================================================================== */
+
+.footer_middle_wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.footer_left_wrap{
+    display: flex-wrap;
+    max-width: 1000px;
+}
+
+.footer_left_wrap li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 15px 15px 0;
+    background: #ffffff;
+    border: 1px solid #d8dadb;
+}
+
+.footer_left_wrap li:last-child{
+    margin: 0;
+}
+
+.footer_left_wrap li a {
+   
+    color: #c4c7c9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer_right_wrap a:not(:last-child) img{
+    padding-right: 10px;
+}
+
+.jeju_footer_logo{width: 190px; height: 40px;}
+.face_book{width: 40px; height: 40px;}
+.insta{width: 40px; height: 40px;}
+.naver{width: 40px; height: 40px;}
+
+
+.footer_paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.footer_paragraph > p{
+    white-space: pre-line;
+    font-size: 16px;
+    color: #999;
+}
+
+.footer_paragraph > p > a{
+    color: #999;
+}
+
+.footer_copyright p{
+    padding-top: 20px;
+    padding-bottom: 110px;
+    max-width: 1800px;
+    margin: 0 auto;
+    color: #999;
+}
